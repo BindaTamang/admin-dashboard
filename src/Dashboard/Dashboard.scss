@@ -1,0 +1,27 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 290px; /* Adjust margin to leave space for the sidebar */
+    gap: 4px; /* Gap between cards */
+  
+    .MuiGrid-root {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 4px; /* Gap between cards */
+  
+      .MuiGrid-item {
+        flex: 1;
+        min-width: 290px; /* Adjust minimum width as needed */
+      }
+    }
+    
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  

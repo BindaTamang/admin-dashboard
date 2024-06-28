@@ -1,0 +1,179 @@
+.project-container-fluid {
+   width: 75%;
+   height: auto;
+   margin-left: 300px;
+    
+  }
+  
+  
+  
+  .card {
+    
+    &.my-4 {
+      margin-bottom: 1.5rem;
+      margin-left: 1rem;
+    }
+  
+    &-header {
+      padding: 0;
+      position: relative;
+      margin-top: -1.5rem;
+      margin-right: 1rem;
+  
+      .bg-gradient-primary {
+        background-color: #eb2960;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 0.5rem;
+  
+        .shadow-primary {
+          box-shadow: none;
+        }
+  
+        .pt-4 {
+          padding-top: 1rem;
+        }
+  
+        .pb-3 {
+          padding-bottom: 0.75rem;
+        }
+  
+        h6 {
+          color: white;
+          text-transform: capitalize;
+          padding-left: 1rem;
+        }
+      }
+    }
+  
+    &-body {
+      padding: 0;
+  
+      .table-responsive {
+        overflow-x: auto;
+        padding: 0;
+  
+        table {
+          width: 100%;
+          height: 100%;
+          border-collapse: collapse;
+  
+          th {
+            text-transform: uppercase;
+            color: #8898aa;
+            font-size: 0.65rem;
+            font-weight: bold;
+            opacity: 0.7;
+            padding: 0.75rem;
+            border: none;
+          }
+  
+          td {
+            padding: 1rem;
+            border-top: 1px solid #e9ecef;
+            vertical-align: middle;
+  
+            .avatar {
+              width: 2rem;
+              height: 2rem;
+              border-radius: 80%;
+            }
+  
+            h6 {
+              margin-bottom: 0.25rem;
+              font-size: 0.875rem;
+              font-weight: bold;
+            }
+  
+            p {
+              font-size: 0.75rem;
+              color: #8898aa;
+              margin-bottom: 0;
+            }
+  
+            .badge {
+              font-size: 0.65rem;
+              padding: 0.5rem 0.75rem;
+              border-radius: 0.375rem;
+            }
+  
+            .bg-gradient-success {
+              background-color: #1dd1a1;
+            }
+  
+            .bg-gradient-secondary {
+              background-color: #f6f9fc;
+            }
+  
+            .text-secondary {
+              color: #8898aa;
+            }
+  
+            .font-weight-bold {
+              font-weight: bold;
+            }
+  
+            .text-xs {
+              font-size: 0.625rem;
+            }
+  
+            .text-xxs {
+              font-size: 0.5rem;
+            }
+          }
+  
+          .align-middle {
+            vertical-align: middle;
+          }
+  
+          .text-center {
+            text-align: center;
+          }
+  
+          .opacity-7 {
+            opacity: 0.7;
+          }
+  
+          .border-radius-lg {
+            border-radius: 0.5rem;
+          }
+  
+          .avatar-sm {
+            width: 2rem;
+            height: 2rem;
+          }
+  
+          .shadow-primary {
+            box-shadow: 0 0 15px rgba(78, 115, 223, 0.1);
+          }
+        }
+      }
+    }
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+  /* Additional styles to ensure full length and width */
+  .card {
+    .card-header {
+      h6 {
+        font-size: 1.25rem; // Adjust header font size if needed
+      }
+    }
+    
+    .card-body {
+      .table-responsive {
+        table {
+          th {
+            font-size: 0.75rem; // Adjust table header font size if needed
+          }
+  
+          td {
+            font-size: 0.875rem; // Adjust table cell font size if needed
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,117 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+    box-shadow: 2px 0 5px rgba(180, 133, 133, 0.1);
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    flex: 1; /* Make cards flexible to fill available space */
+    overflow: visible; /* Ensure icon is not hidden */
+  
+    .icon {
+      padding: 10px;
+      position: absolute;
+      top: -25px; /* Adjust to position half inside and half outside */
+      left: 0;
+      border-radius: 20%; /* Adjust as necessary */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white; /* Adjust as necessary for visibility */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  
+      &.icon-lg {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+      }
+  
+      &.bg-gradient-primary {
+        background: linear-gradient(60deg, #26c6da, #00acc1);
+        color: white;
+      }
+  
+      &.bg-gradient-success {
+        background: linear-gradient(60deg, #66bb6a, #43a047);
+        color: white;
+      }
+  
+      &.bg-gradient-info {
+        background: linear-gradient(60deg, #42a5f5, #1e88e5);
+        color: white;
+      }
+  
+      &.shadow-primary {
+        box-shadow: 0 4px 20px 0 rgba(0, 188, 212, 0.4);
+      }
+  
+      &.shadow-success {
+        box-shadow: 0 4px 20px 0 rgba(76, 175, 80, 0.4);
+      }
+  
+      &.shadow-info {
+        box-shadow: 0 4px 20px 0 rgba(33, 150, 243, 0.4);
+      }
+    }
+  
+    .text-end {
+      text-align: right;
+  
+      .text-sm {
+        font-size: 0.875rem;
+        margin-bottom: 0;
+      }
+  
+      h4 {
+        margin-bottom: 0;
+        font-size: 1.5rem;
+      }
+    }
+  
+    .horizontal {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 10px 0;
+    }
+  
+    .card-footer {
+      p {
+        margin-bottom: 0;
+        font-size: 0.875rem;
+  
+        .text-sm {
+          font-size: 0.875rem;
+          font-weight: bold;
+  
+          &.font-weight-bolder {
+            font-weight: bolder;
+          }
+  
+          &.text-success {
+            color: #4caf50;
+          }
+  
+          &.text-danger {
+            color: #f44336;
+          }
+        }
+      }
+    }
+  
+    &.border-primary {
+      border-color: #00acc1;
+    }
+  
+    &.border-success {
+      border-color: #43a047;
+    }
+  
+    &.border-info {
+      border-color: #1e88e5;
+    }
+  }

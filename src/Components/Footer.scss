@@ -1,0 +1,110 @@
+
+// Define variables for colors and other reusable styles
+$footer-bg-color: #f8f9fa;
+$footer-text-color: #6e707e;
+$footer-link-color: #6e707e;
+$footer-link-hover-color: #212529;
+$footer-link-hover-bg: transparent;
+
+// Sticky footer styles
+
+
+.footer {
+  padding-top: 4rem;
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  font-size: 0.875rem;
+  border-top: 1px solid #e3e6f0;
+  margin-top: auto; // Ensures footer stays at bottom of viewport
+  padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.container-fluid {
+  padding-left: 190px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-lg-between {
+  justify-content: space-between !important;
+}
+
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+.mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-muted {
+  color: #8898aa !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $footer-link-color;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+  color: $footer-link-hover-color;
+  background-color: $footer-link-hover-bg;
+}
+
+.pe-0 {
+  padding-right: 0 !important;
+}
+
+.footer .copyright {
+  color: $footer-text-color;
+  font-size: 0.875rem;
+}
+
+.footer .copyright a {
+  color: $footer-text-color;
+  font-weight: 700;
+  transition: color 0.15s ease-in-out;
+}
+
+.footer .copyright a:hover {
+  color: $footer-link-hover-color;
+}

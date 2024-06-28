@@ -1,0 +1,86 @@
+/* Define some variables for reuse */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$info-color: #17a2b8;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+$white-color: #fff;
+$border-radius: 0.25rem;
+$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+/* General styling */
+.card {
+  background: $white-color;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin-bottom: 1.5rem;
+
+  .card-header {
+    padding-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+    
+
+    .text-sm {
+      font-size: 0.875rem;
+      color: $secondary-color;
+
+      .fa {
+        &.fa-arrow-up {
+          color: $info-color;
+        }
+      }
+
+      .font-weight-bold {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    .timeline {
+      .timeline-block {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0.75rem;
+
+        .timeline-step {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          background-color: $info-color;
+          color: $white-color;
+          margin-right: 1rem;
+
+          i.material-icons {
+            font-size: 1.5rem;
+          }
+        }
+
+        .timeline-content {
+          flex: 1;
+
+          h6 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: $dark-color;
+          }
+
+          p {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: $secondary-color;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
